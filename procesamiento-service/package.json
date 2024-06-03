@@ -1,0 +1,13 @@
+{
+  "name": "procesamiento-service",
+  "version": "1.0.0",
+  "description": "Servicio de Procesamiento para la tarea de sistemas distribuidos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "kafka-node": "^5.0.0"
+  }
+}

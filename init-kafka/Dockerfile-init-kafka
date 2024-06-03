@@ -1,0 +1,5 @@
+FROM bitnami/kafka:latest
+
+COPY init-kafka.sh /init-kafka.sh
+
+CMD ["bash", "/init-kafka.sh"]

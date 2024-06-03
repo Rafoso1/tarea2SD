@@ -1,0 +1,14 @@
+{
+  "name": "notificacion-service",
+  "version": "1.0.0",
+  "description": "Servicio de Notificaciones para la tarea de sistemas distribuidos",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "kafka-node": "^5.0.0",
+    "nodemailer": "^6.6.3"
+  }
+}
